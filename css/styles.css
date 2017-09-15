@@ -2,6 +2,15 @@ body {
   text-align: center;
 }
 
+.container {
+
+}
+
+.container a,
+.container img {
+  display: inline-block;
+}
+
 a {
   display: block;
 }
