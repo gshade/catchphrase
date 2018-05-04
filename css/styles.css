@@ -1,9 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   text-align: center;
 }
 
 .container {
-
 }
 
 .container a,
@@ -20,4 +29,29 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+}
+
+.endorsement {
+  align-items: center;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+.endorsement__image {
+  display: inline-block;
+  margin: -30px 0;
+}
+
+.endorsement__audio {
+  display: inline-block;
+}
+
+.endorsement__content {
+  flex: 1;
+  text-align: center;
 }
