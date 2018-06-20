@@ -27,8 +27,27 @@ a {
 
 img {
   display: block;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.argus {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  max-width: 960px;
+  width: 100%;
+}
+
+.argus__video {
+  margin-bottom: 30px;
+}
+
+.argus__image {
   margin-bottom: 30px;
 }
 
